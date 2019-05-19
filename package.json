@@ -1,0 +1,28 @@
+{
+  "name": "enc-webrtc-signaling",
+  "version": "0.0.1",
+  "description": "sgnaling for enc-webrtc",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enc-EE/enc-webrtc-signaling.git"
+  },
+  "keywords": [
+    "enc",
+    "web",
+    "rtc",
+    "signaling"
+  ],
+  "author": "Eric Eichhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Enc-EE/enc-webrtc-signaling/issues"
+  },
+  "homepage": "https://github.com/Enc-EE/enc-webrtc-signaling#readme",
+  "devDependencies": {
+    "@types/node": "^11.13.4"
+  }
+}
