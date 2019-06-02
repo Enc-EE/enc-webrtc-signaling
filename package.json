@@ -4,9 +4,7 @@
   "description": "signaling for enc-webrtc",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.ts",
-    "build": "tsc",
-    "dev": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts"
   },
   "engines": {
     "node": "10.15.2"
