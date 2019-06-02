@@ -6,6 +6,9 @@
   "scripts": {
     "start": "ts-node src/index.ts"
   },
+  "engines": {
+    "node": "^11.8.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Enc-EE/enc-webrtc-signaling.git"
