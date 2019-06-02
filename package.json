@@ -1,10 +1,12 @@
 {
   "name": "enc-webrtc-signaling",
   "version": "0.0.1",
-  "description": "sgnaling for enc-webrtc",
+  "description": "signaling for enc-webrtc",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "node src/index.ts",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
   },
   "engines": {
     "node": "^11.8.0"
