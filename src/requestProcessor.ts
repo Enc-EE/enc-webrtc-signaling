@@ -121,7 +121,7 @@ export class RequestProcessor {
 
     private end = (res: ServerResponse, status: number, response?: string) => {
         var headers: OutgoingHttpHeaders = {};
-        headers['Access-Control-Allow-Origin'] = 'http://localhost:8080';
+        headers['Access-Control-Allow-Origin'] = '*';
         if (response) {
             headers['Content-Type'] = 'application/json';
         }
